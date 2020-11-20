@@ -167,10 +167,13 @@ li a:hover{
     100% {opacity: 1;}
     } 
 .top{
-    padding: 10% 10% 0 ;
+    padding: 6% 10% 0 ;
     position: relative;
-    width: 90%;
-    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 89%;
+    height: 80%;
     margin: 0 auto;
 }    
 .top a {
@@ -180,7 +183,7 @@ li a:hover{
     letter-spacing: 6px;
     font-weight: 500;
     position: absolute;
-    bottom: 6%;
+    bottom: 22%;
 }
 .textarea a:hover{
     color: #ddd;
@@ -191,6 +194,9 @@ li a:hover{
 }
 .bottom h3 {
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 600;
 }
 .btn-control.desktop{
    position: absolute;
