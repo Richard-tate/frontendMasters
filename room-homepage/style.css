@@ -124,7 +124,7 @@ li a:hover{
     cursor: pointer;
 }
 .textarea{
-    width: 98%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -172,7 +172,7 @@ li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 89%;
+    width: 94%;
     height: 80%;
     margin: 0 auto;
 }    
@@ -182,8 +182,7 @@ li a:hover{
     color: #303030;
     letter-spacing: 6px;
     font-weight: 500;
-    position: absolute;
-    bottom: 22%;
+    margin-top: 10px; 
 }
 .textarea a:hover{
     color: #ddd;
@@ -197,6 +196,7 @@ li a:hover{
     letter-spacing: 2px;
     font-size: 13px;
     font-weight: 600;
+    margin-bottom: 18px;
 }
 .btn-control.desktop{
    position: absolute;
@@ -214,7 +214,7 @@ li a:hover{
     background-color: #000;
     border: 1px solid #000;
     width: 68px;
-    padding: 18px;
+    padding: 24px 0;
     cursor: pointer;
 }
 .btn:hover, .btn:focus{
@@ -295,3 +295,16 @@ li a:hover{
         display: block;
     }
 }
+
+/* @media(max-height:750px){
+    .top a{
+        bottom: 25%;
+    }
+}
+
+@media(min-height:751px){
+    .top a{
+        bottom: 24%;
+    }
+} */
+
