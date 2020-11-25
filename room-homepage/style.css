@@ -68,9 +68,11 @@ body{
     font-weight: 700; 
     margin: 0 .4rem;
     letter-spacing: 1px;
+    z-index: 20;
+    
 }
 li a:hover{
-    text-decoration: underline 3px;
+   border-bottom: #fff 3px solid;
 }
 
 .desktop-nav li a{
